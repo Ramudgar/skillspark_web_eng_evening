@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline Block element</title>
+    <style>
+        div
+        {
+            text-align: center;
+            background-color: lightgray;
+            
+        }
+      div ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      div ul li {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        
+       
+      }
+      #logo{
+            font-weight: bold;
+            color: red;
+            float: left;
+      }
+      .btn{
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        
+      <ul>
+        <li id="logo">Logo</li>
+        <li>Home</li>
+        <li>About us</li>
+        <li>Contact Us</li>
+        <li class="btn">Login</li>
+        <li class="btn">Logout</li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+h1{
+    color: red;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+
+}
+
+input:focus{
+    color: wheat        ;
+}
